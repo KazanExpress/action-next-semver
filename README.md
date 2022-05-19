@@ -43,3 +43,7 @@ jobs:
           find: "^.*$"
           replace: "Release v${{ steps.next-package-version.outputs.next-version }}"
 ```
+## Input
+`version`: version to be increased
+## Output
+`next-version`: increased version
